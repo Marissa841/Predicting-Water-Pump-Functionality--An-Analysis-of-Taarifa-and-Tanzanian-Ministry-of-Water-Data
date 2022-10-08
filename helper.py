@@ -28,8 +28,7 @@ def model_helper(X, y, model, feature_importance = False):
         model (sklearn): Model to train on. 
         feature_importance (bool): True equals plot feature importance table. 
     """
-    X_train, X_test, y_train, y_test = train_test_split(X,
-                                                    y, test_size=.2, random_state=11)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .2, random_state = 11)
     model.fit(X_train, y_train)
 
     print(f"Training Score: {model.score(X_train, y_train)}")
