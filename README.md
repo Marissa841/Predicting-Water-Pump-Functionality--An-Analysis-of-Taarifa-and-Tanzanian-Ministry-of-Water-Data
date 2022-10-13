@@ -1,8 +1,9 @@
 # Overview: 
 
 This project analyzes data from Taarifa and the Tanzanian Ministry of Water to find which water pumps are in need of repair. This is an imbalanced class problem, with three possible classes, “functional”, “non functional”, and “functional in need of repair”. The goal was accuracy, and with the OSEMN method and iterative modeling, I was able to obtain an accuracy score of 0.7525 with the help of a Random Forest Classifier. 
-
-
+<br />
+<br />
+![status group distribution](img/status_group_distribution.png)
 
 
 
@@ -29,8 +30,16 @@ From the above-mentioned methods, I was able to obtain an overall accuracy score
 
 # For more information:
 
-​​See the full analysis in the Jupyter Notebook or review this presentation. For additional info, contact Marissa Bush at Marissabush.02@gmail.com
+​​See the full analysis in the [Jupyter Notebook](https://github.com/Marissa841/phase_3_project/blob/main/main_notebook.ipynb) or review this [presentation](https://github.com/Marissa841/phase_3_project/blob/main/phase_3_project_presentation.pdf). For additional info, contact Marissa Bush at Marissabush.02@gmail.com
 
 
 
 # Repository structure:
+
++ data
++ img
++ main_notebook.ipynb
++ submission_notebook.ipynb
++ README.md
++ phase_3_project_presentation.pdf
++ helper.py
